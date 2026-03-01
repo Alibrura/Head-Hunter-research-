@@ -1,2 +1,2 @@
 # Head-Hunter-research-
-Head Hunter research for job recommendations
+Учебное исследование онованное на умении взаимодействия с реляционной базой данных посредством библиотеки psycorg2 и языка программировани python. 
