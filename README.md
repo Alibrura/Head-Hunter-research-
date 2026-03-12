@@ -128,3 +128,13 @@
 - **Jupyter Notebook** – среда разработки
 
 ---
+
+## 👤 Автор
+
+GitHub: Alibrura 
+Контакт: sambostation@mail.ru
+
+---
+
+**Более подробно с расчётами и визуализациями можно ознакомиться в Jupyter Notebook:**  
+[Project_2.ipynb](Project_2.ipynb)
