@@ -35,6 +35,7 @@
 
 ### **vacancies**
 Основная таблица с информацией о вакансиях.
+<img width="1165" height="538" alt="image" src="https://github.com/user-attachments/assets/281bc35d-ae3a-499c-b94c-8348ce3d9229" />
 
 | Поле | Описание |
 |------|----------|
