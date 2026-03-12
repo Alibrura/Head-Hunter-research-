@@ -30,6 +30,7 @@
 ---
 
 ## 🗄 Структура базы данных
+<img width="748" height="792" alt="image" src="https://github.com/user-attachments/assets/ea22513a-4de0-4153-85d2-af28d5ede1c3" />
 
 База данных `project_sql` (PostgreSQL) содержит следующие таблицы:
 
@@ -37,50 +38,28 @@
 Основная таблица с информацией о вакансиях.
 <img width="1165" height="538" alt="image" src="https://github.com/user-attachments/assets/281bc35d-ae3a-499c-b94c-8348ce3d9229" />
 
-| Поле | Описание |
-|------|----------|
-| `id` | Уникальный идентификатор вакансии |
-| `name` | Название вакансии |
-| `area` | Регион (код) |
-| `key_skills` | Ключевые навыки |
-| `schedule` | График работы |
-| `experience` | Требуемый опыт |
-| `employment` | Тип занятости |
-| `salary_from` | Нижняя граница зарплаты (₽) |
-| `salary_to` | Верхняя граница зарплаты (₽) |
-| `employer_id` | Идентификатор работодателя |
-
 ### **areas**
 Справочник регионов.
 
-| Поле | Описание |
-|------|----------|
-| `id` | Код региона |
-| `name` | Название региона |
+<img width="1166" height="188" alt="image" src="https://github.com/user-attachments/assets/d4f90b33-ec2b-4f36-b50f-c58bb597e24c" />
 
 ### **employers**
 Справочник работодателей.
 
-| Поле | Описание |
-|------|----------|
-| `id` | Идентификатор работодателя |
-| `name` | Название компании |
+<img width="1165" height="246" alt="image" src="https://github.com/user-attachments/assets/ca797abd-101b-4ffc-878d-78dc8bafdb4b" />
+
 
 ### **industries**
 Справочник сфер деятельности.
 
-| Поле | Описание |
-|------|----------|
-| `id` | Идентификатор сферы |
-| `name` | Название сферы |
+<img width="1166" height="188" alt="image" src="https://github.com/user-attachments/assets/bec00983-2f98-4215-9ac7-469389c5f2bd" />
+
 
 ### **employers_industries**
 Связующая таблица (many-to-many) между работодателями и сферами деятельности.
 
-| Поле | Описание |
-|------|----------|
-| `employer_id` | Идентификатор работодателя |
-| `industry_id` | Идентификатор сферы |
+<img width="1167" height="218" alt="image" src="https://github.com/user-attachments/assets/977a6b79-a2f4-412e-a700-0140918c5291" />
+
 
 ---
 
